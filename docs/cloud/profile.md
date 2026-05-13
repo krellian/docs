@@ -1,4 +1,6 @@
-# Edit Profile
+# Profile
+
+## Edit Profile
 
 To edit your profile settings:
 
