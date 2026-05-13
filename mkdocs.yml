@@ -6,26 +6,10 @@ nav:
     - 'Krellian Cloud':
       - 'Sign Up': 'cloud/sign-up.md'
       - 'Log In': 'cloud/log-in.md'
-      - 'Devices':
-        - 'Add Device': 'cloud/devices/add-device.md'
-        - 'List Devices': 'cloud/devices/list-devices.md'
-        - 'View Device': 'cloud/devices/view-device.md'
-        - 'Remove Device': 'cloud/devices/remove-device.md'
-      - 'Buildings':
-          - 'Add Building': 'cloud/buildings/add-building.md'
-          - 'List Buildings': 'cloud/buildings/list-buildings.md'
-          - 'View Building': 'cloud/buildings/view-building.md'
-          - 'Upload Floorplan': 'cloud/buildings/upload-floorplan.md'
-          - 'Add device to floor': 'cloud/buildings/add-device-to-floor.md'
-          - 'Position devices on floor': 'cloud/buildings/position-devices.md'
-          - 'Remove Building': 'cloud/buildings/remove-building.md'
-      - 'Analytics':
-          - 'Add Metric': 'cloud/analytics/add-metric.md'
-          - 'List Metrics': 'cloud/analytics/list-metrics.md'
-          - 'View Metric': 'cloud/analytics/view-metric.md'
-          - 'Remove Metric': 'cloud/analytics/remove-metric.md'
-      - 'Profile':
-          - 'Edit Profile': 'cloud/profile/edit-profile.md'
+      - 'Devices': 'cloud/devices.md'
+      - 'Buildings': 'cloud/buildings.md'
+      - 'Analytics': 'cloud/analytics.md'
+      - 'Profile': 'cloud/profile.md'
       - 'Log Out': 'cloud/log-out.md'
 theme: 
     name: readthedocs
