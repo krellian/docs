@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://docs.krellian.com/hub/setup/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>First Time Setup - Krellian Documentation</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "First Time Setup";
+        var mkdocs_page_input_path = "hub/setup.md";
+        var mkdocs_page_url = "/hub/setup/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../..">
+          <img src="../../images/logo.svg" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Krellian Hub</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../introduction/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">First Time Setup</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#connect-to-a-network">Connect to a Network</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#register-a-subdomain">Register a Subdomain</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#create-a-user-account">Create a User Account</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../log-in/">Log In</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../things/">Things</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../rules/">Rules</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../settings/">Settings</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../log-out/">Log Out</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Krellian Cloud</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cloud/introduction/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cloud/sign-up/">Sign Up</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cloud/log-in/">Log In</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cloud/devices/">Devices</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cloud/buildings/">Buildings</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cloud/analytics/">Analytics</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cloud/profile/">Profile</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../cloud/log-out/">Log Out</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Krellian Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Krellian Hub</li>
+      <li class="breadcrumb-item active">First Time Setup</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="first-time-setup">First Time Setup</h1>
+<h2 id="connect-to-a-network">Connect to a Network</h2>
+<p>When Krellian Hub first boots up it will check to see whether it is plugged into a wired network and can get a network connection via an automatically assigned IP address.</p>
+<p>If your hub is connected to a wired network connection (which we recommend) then you can skip to the <a href="#register-a-subdomain">Register a Subdomain</a> section below.</p>
+<p>If the hub can not detect an active network connection then it will create a Wi-Fi hotspot called <strong>"Krellian Hub XXXX"</strong> (where XXXX are four digits from the hub's MAC address).</p>
+<p>You can use a smartphone, tablet or desktop computer to scan for and connect to that Wi-Fi network.</p>
+<p><img alt="A screenshot from a desktop operating system showing the user selecting a Wi-Fi hotspot called Krellian Hub B88F" src="../images/wifi_ssid.png" /></p>
+<p>Once your device is connected to the Wi-Fi hotspot a "captive portal" page should automatically appear, showing a list of nearby Wi-Fi networks.</p>
+<p><img alt="A screenshot showing the names of nearby Wi-Fi networks" src="../images/connect_wifi.png" /></p>
+<p>Select the desired network and if you are prompted for a password then enter the Wi-Fi password and click "Connect". </p>
+<p><img alt="A screenshot showing a Wi-Fi password prompt" src="../images/wifi_password.png" /></p>
+<p>The "Connecting to Wi-Fi..." page should then automatically disappear as the Wi-Fi hotspot is turned off and you are re-connected to your usual Wi-Fi network.</p>
+<p>Alternatively, to skip connecting to a Wi-Fi network (if already connected via Ethernet), click the "Skip" button (you can reconfigure Wi-Fi later from <a href="../settings/">Settings</a>).</p>
+<p>After you've connected your hub to a wireless network, you should ensure that your smartphone, tablet or desktop computer is connected to the same Wi-Fi network and then navigate to <a href="http://gateway.local">http://gateway.local</a> in your web browser to access the hub's web interface.</p>
+<p><strong>🗒️ Notes:</strong> </p>
+<ul>
+<li>If you are connected to the "Krellian Hub XXXX" Wi-Fi network but you don't see the captive portal, you can try typing "http://192.168.2.1" into your web browser's address bar to manually navigate to the page.</li>
+<li>If you're not able to access "http://gateway.local", you may need to look up the IP address assigned to the hub by your router (look for a hostname of “gateway”), and type that into the address bar of your web browser instead.</li>
+<li>If neither "http://gateway.local" or "http://{IP ADDRESS}" will load in your browser, check to make sure your computer is definitely connected to the same network you connected the hub to.</li>
+<li>If you move the hub to another location and it can no longer access your building network, it will revert to access point mode so you can connect to it and re-configure a different network.</li>
+</ul>
+<h2 id="register-a-subdomain">Register a Subdomain</h2>
+<p>Once you've successfully loaded the hub's web interface you will be offered the option to register a unique subdomain to safely access your hub over the Internet using a secure tunnelling service.</p>
+<p><img alt="A screenshot showing a form to choose a subdomain of krellian.net and enter an email address" src="../images/choose_subdomain.png" />  </p>
+<p>Enter your choice of subdomain and an email address in case you need to retrieve your subdomain later on a new hub. You will also need to agree to the Krellian Privacy Policy and Terms of Service in order to use the tunnelling service and over-the-air update service provided by Krellian. Click “Create” and wait a few moments for the subdomain registration to complete. You should then be redirected to your new subdomain.</p>
+<p><strong>🗒️ Notes:</strong></p>
+<ul>
+<li>You can choose to skip this step (either to only use the hub locally on your building's network or manually configure DNS yourself), but note that currently if you do skip this step a factory reset will be required in order to register a subdomain.</li>
+<li>If you have previously registered a subdomain you want to re-use, enter the subdomain and the email address you used to register it and follow the on-screen instructions to re-claim it.</li>
+</ul>
+<h2 id="create-a-user-account">Create a User Account</h2>
+<p>The hub will next prompt you to create your first user account. Enter a name, email address and a password and click "Next".</p>
+<p><img alt="A screenshot showing a form to enter a name, email address and password" src="../images/create_user.png" /></p>
+<p><strong>🗒️ Note:</strong> You can create additional user accounts later.</p>
+<p><strong>Success!</strong></p>
+<p>Once your user account has been successfully created, you will be automatically logged in to the hub and you should see an empty "Things" screen, ready for you to start adding devices.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../introduction/" class="btn btn-neutral float-left" title="Introduction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../log-in/" class="btn btn-neutral float-right" title="Log In">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>© Krellian Ltd.</p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../introduction/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../log-in/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
