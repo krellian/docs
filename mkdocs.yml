@@ -3,7 +3,16 @@ site_url: https://docs.krellian.com
 site_description: 'Documentation for Krellian products and services'
 copyright: '© Krellian Ltd.'
 nav:
+    - 'Krellian Hub':
+      - 'Introduction': 'hub/introduction.md'
+      - 'First Time Setup': 'hub/setup.md'
+      - 'Log In': 'hub/log-in.md'
+      - 'Things': 'hub/things.md'
+      - 'Rules': 'hub/rules.md'
+      - 'Settings': 'hub/settings.md'
+      - 'Log Out': 'hub/log-out.md'
     - 'Krellian Cloud':
+      - 'Introduction': 'cloud/introduction.md'
       - 'Sign Up': 'cloud/sign-up.md'
       - 'Log In': 'cloud/log-in.md'
       - 'Devices': 'cloud/devices.md'
