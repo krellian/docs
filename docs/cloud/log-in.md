@@ -1,6 +1,6 @@
 # Log In
 
-To log in to Krellian Cloud once you have [signed up for an account](../sign-up):
+To log in to Krellian Cloud once you have [signed up for an account](sign-up.md):
 
 1. Navigate to the [log in page](https://cloud.krellian.com/login)
 2. Enter your email address and password
