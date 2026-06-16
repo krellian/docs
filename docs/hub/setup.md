@@ -2,11 +2,19 @@
 
 ## Connect to a Network
 
+Before booting Krellian Hub we recommend you:
+
+1. Plug an Ethernet (wired network) cable into network port 2
+2. Attach the external antennas
+3. Plug in the supplied power adapter
+
+You can then turn the hub on by pressing the power button on the back (there is no need to attach a monitor).
+
 When Krellian Hub first boots up it will check to see whether it is plugged into a wired network and can get a network connection via an automatically assigned IP address.
 
 If your hub is connected to a wired network connection (which we recommend) then you can skip to the [Register a Subdomain](#register-a-subdomain) section below.
 
-If the hub can not detect an active network connection then it will create a Wi-Fi hotspot called **"Krellian Hub XXXX"** (where XXXX are four digits from the hub's MAC address).
+If the hub can not detect an active network connection then it will create a Wi-Fi hotspot called "Krellian Hub" followed by four characters, e.g. "Krellian Hub B88F".
 
 You can use a smartphone, tablet or desktop computer to scan for and connect to that Wi-Fi network.
 
@@ -35,7 +43,7 @@ After you've connected your hub to a wireless network, you should ensure that yo
 
 ## Register a Subdomain
 
-Once you've successfully loaded the hub's web interface you will be offered the option to register a unique subdomain to safely access your hub over the Internet using a secure tunnelling service.
+Once you've successfully loaded the hub's web interface as described above (e.g. at [http://gateway.local](http://gateway.local)) you will be offered the option to register a unique subdomain to safely access your hub over the Internet using a secure tunnelling service.
 
 ![A screenshot showing a form to choose a subdomain of krellian.net and enter an email address](images/choose_subdomain.png)  
 
